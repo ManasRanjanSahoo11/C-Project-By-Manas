@@ -7,19 +7,19 @@ void main(){
     if(d>0){
         r1=-(b+d)/2*a;
         r2=-(b-d)/2*a;
-        printf("x=%d, x= %d\n",r1,r2);
+        printf("x=%d, x=%d\n",r1,r2);
         printf("Real and distinct roots");
     }
-    else if(b==0){
+    else if(d==0){
         r1=-(b+d)/2*a;
         r2=-(b-d)/2*a;
-        printf("x=%d, x= %d\n",r1,r2);
+        printf("x=%d, x=%d\n",r1,r2);
         printf("Real and Equal roots");
     }
     else{
         r1=-(b+d)/2*a;
         r2=-(b-d)/2*a;
-        printf("x=%d, x= %d\n",r1,r2);
+        printf("x=%d, x=%d\n",r1,r2);
         printf("Imaginary roots");
     }
 
