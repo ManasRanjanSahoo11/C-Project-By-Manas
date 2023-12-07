@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 void main(){
     int n;
     printf("Enter a integer :");
@@ -14,4 +15,15 @@ void main(){
     printf("negative Odd");
     if(n==0)
     printf("Even");
+
+
+//examples of abs() :->
+
+
+  int x = -255;
+  int y = abs(x);
+
+  printf("The absolute value of %d is %d\n", x, y);
+
+  return 0;
 }
