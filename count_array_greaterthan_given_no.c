@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-    int size;
+     int size;
     printf("Enter the size :");
     scanf("%d",&size);
     int a[size];
@@ -13,17 +13,17 @@ void main(){
     for(int i=0;i<size;i++){
         printf("%d ",a[i]);
     }
-    for (int i = 0; i < size; i++)
-    {
-        if(i%2==0)
-            a[i]+=10;
-        else
-            a[i]*=2;
-    }
 
-    printf("\nAfter perform operation: ");
-    for(int i=0;i<size;i++){
-        printf("%d ",a[i]);
-    }
-    
+    int e;
+    printf("Enter a value :");
+    scanf("%d",&e);
+
+   int count=0;
+
+   for(int i=0;i<size;i++){
+    if (a[i]>e)
+    count++;
+   }
+
+   printf("%d",count);
 }
