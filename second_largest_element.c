@@ -20,11 +20,12 @@ void main(){
             smax=max;
             max=a[i];
         }
-        else if (smax<a[i] && a[i] != max)
+    }
+    for(int i=0;i<size;i++){
+      if (smax<a[i] && a[i] != max)
         {
             smax=a[i];
         }  
     }
     printf("\n2nd largest :%d",smax);
-
-}
+    }

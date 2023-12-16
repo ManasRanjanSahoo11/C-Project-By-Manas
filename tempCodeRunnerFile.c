@@ -1,2 +1,2 @@
- a[i])
-            //     count=0;
+ printf("Element is not found.");
+        break;
