@@ -1,1 +1,3 @@
-good morning!
+101 manas 20.000000
+102 sahoo 21.000000
+103 hello 23.000000

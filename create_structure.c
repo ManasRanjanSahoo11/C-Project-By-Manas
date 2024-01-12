@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<string.h>
 struct student
 {
     int roll_no;
@@ -10,7 +10,8 @@ struct student
 int main(){
     struct student s1;
     s1.roll_no=19;
-    s1.name="manas";
+    // s1.name="manas";
+    strcpy(s1.name,"manas");
     s1.age=20;
     printf("Roll no : %d\nName :%s\nAge :%d",s1.roll_no,s1.name,s1.age);
 }
